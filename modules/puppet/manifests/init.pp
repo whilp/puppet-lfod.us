@@ -1,3 +1,3 @@
 class puppet::server {
-	package { "ruby-puppet": ensure => present }
+	package { "ruby-puppet-*": ensure => present }
 }

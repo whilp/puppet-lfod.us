@@ -1,4 +1,4 @@
 node default {
 	include sudo
-	include package::base
+	include dev
 }
